@@ -622,3 +622,24 @@ footer{
 .rouge{
     color: #ce1212;
 }
+
+/* todo.... Need Help section */
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4vh 7vw;
+}
+.map p{
+    font-size: 15px;
+    padding-bottom: 35px;
+    color: #171212d5;
+}
+.map h1{
+    padding-bottom: 35px;
+    font-size: 50px;
+}
+.map h1 span{
+    color: #ce1212;
+}
