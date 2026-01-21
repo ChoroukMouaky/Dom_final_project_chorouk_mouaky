@@ -474,3 +474,66 @@ nav a:hover {
 .activeIndicator{
     background-color: #ce1212;
 }
+
+/*todo.... Stay With Us section*/
+.rsv{
+    padding: 5vh 6vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;        
+    gap : 2vh ;
+}
+.rsv p{
+    font-size: 15px;
+    color: #171212d5;
+}
+.rsv h1 span{
+    color: #ce1212;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+}
+.img{
+    width: 40%;
+}
+.img img{
+    width: fit-content;
+    height: 100%;
+    object-fit: cover;
+}
+.inf{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+    padding-inline: 3vw;
+}
+.inf form{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2vw;
+}
+.inf form input{
+    padding: 2vh 0.5vw;
+    border: solid 1px #80808061;
+    outline: none;
+}
+.areatext textarea{
+    padding: 2vh 1vw;
+}
+.inf button{
+    padding: 2.2vh 4vw;
+    background-color: #ce1212;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.inf button:hover{
+    opacity: 80%;
+    box-shadow: 2px 2px 6px 2px rgba(237, 236, 236, 0.492);
+}
