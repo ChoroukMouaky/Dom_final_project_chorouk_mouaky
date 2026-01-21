@@ -63,7 +63,7 @@ nav a:hover {
     display: none;
 }
 
-/* & hero section */
+/* todo.... hero section */
 
 .hero_section{
     background-color: #f2f2f2;
@@ -75,7 +75,6 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 .title h1 {
     width: 70%;
@@ -124,14 +123,13 @@ nav a:hover {
     position: absolute;
     right: 0px;
     padding: 2vh 2vw;
-
 }
 .image > img{
     width: 80%;
     transform: translateX(25%);
 }
 
-/* & section about */
+/* todo.... about section*/
 
 .about{
     display: grid;
@@ -145,7 +143,6 @@ nav a:hover {
 }
 .about .flex{
     display: flex;
-    
 }
 .flex .left{
     width: 60%;
@@ -166,7 +163,6 @@ nav a:hover {
     font-weight: 600;
     margin-top: 2vh;
     color: #d53535;
-    
 }
 .flex .right{
     width: 40%;
@@ -180,7 +176,6 @@ nav a:hover {
 .flex .right .text-iconChecked{
     display: flex;
     gap: 1vw;
-
 }
 .text-iconChecked i {
     color: #d53535;
@@ -206,15 +201,15 @@ nav a:hover {
     width: 50px;
 }
 
-/* & secound section about */
+/* todo.... second section about */
 
-.secound-about{
+.second-about{
     background-color: #f2f2f2;
     display: flex;
     gap: 4vw;
     padding: 5vw 6vh;
 }
-.secound-about .first-div{
+.second-about .first-div{
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -222,17 +217,15 @@ nav a:hover {
     background-color: #ce1212;
     color: #ffffff;
     padding: 4vh 4vw;
-    
-    
 }
-.secound-about .first-div span{
+.second-about .first-div span{
     font-size: 30px;
     font-weight: 600;
 }
-.secound-about .first-div .btn {
+.second-about .first-div .btn {
     text-align: center;
 }
-.secound-about .first-div .btn button:hover{
+.second-about .first-div .btn button:hover{
     background-color: white;
     color:#d53535;
     font-weight: bold;
@@ -247,7 +240,7 @@ nav a:hover {
     cursor: pointer;
     font-weight: bold;
 }
-.secound-about .statW{
+.second-about .statW{
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -284,7 +277,7 @@ nav a:hover {
     color: #171212a8;
 }
 
-/* & section statistics */
+/* todo.... statistics section */
 
 .statistics{
     background: url("../img/stats-bg.jpg") no-repeat center;
@@ -307,48 +300,48 @@ nav a:hover {
     gap: 2vh;
 }
 .stats span{
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 42px;
+    font-weight: 705;
 }
 .stats p {
-    color: #dadadae6;
+    color: #b6b5b5e6;
+    font-weight: bold;
 }
 
-/* & section menu */
+/* todo... menu section */
 
 .menu{
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    gap: 4vh;
+    gap: 5vh;
     padding: 5vh 6vw;
 }
 .menu p{
-    color: #171212a8;
+    color: rgba(128, 128, 128, 0.907);
     font-size: 14px;
 }
 .menu h1{
-    font-size: 45px;
+    font-size: 50px;
 }
 .menu h1 span{
     color: #ce1212;
-    
 }
 .menuflex{
     display: flex;
     gap: 4vw;
-    padding-bottom: 2vh;
+    padding-bottom: 2.2vh;
 }
 .menuflex p {
-    font-size: 20px;
+    font-size: 19px;
     position: relative;
     cursor: pointer;
 }
 .menuflex p::before{
     content: '';
     width: 100%;
-    height: 3px;
-    background-color: #171212a8;
+    height: 1.8px;
+    background-color: rgba(128, 128, 128, 0.578);
     position: absolute;
     bottom: -8px;
 }
@@ -356,11 +349,11 @@ nav a:hover {
     background-color: #ce1212;
 }
 .menu span{
-    color: #171212d5;
+    color: #171212be;
 }
 .menu h2{
     color: #ce1212;
-    font-size: 50px;
+    font-size: 55px;
 }
 .all-menu{
     display: grid;
@@ -369,7 +362,7 @@ nav a:hover {
     text-align: center;
 }
 .all-menu .card img {
-    width: 50%;
+    width: 65%;
     padding-bottom: 2vh;
 }
 .all-menu  .text{
@@ -377,114 +370,104 @@ nav a:hover {
     color: black;
 }
 .all-menu span{
-    font-size: 14px;
-    color: #171212a8;
+    font-size: 17px;
+    color: #4e4b4ba8;
 }
 .all-menu .price{
     color: #ce1212;
-    font-size: x-large;
+    font-size: 25px;
+    font-weight: bold;
     padding-top: 1vh;
 }
 
-/* & Testimonials section */
+/* todo.... Testimonials section */
 .testimonials{
-    padding: 5vh 6vw;
+    padding: 5.5vh 6vw;
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
     justify-items: center;
-    gap: 4vh;
-    background-color: #f2f2f2;
+    gap: 5vh;
+    background-color: rgba(128, 128, 128, 0.132);
 }
 .testimonials p {
-    font-size: 15px;
-    color: #171212d5;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.916);
 }
 .testimonials h1{
-    font-size: 45px;
+    font-size: 42px;
 }
 .testimonials h1 span {
     color: #ce1212;
 }
-
 .carousel-container {
-    width: 70%;
+    width: 67%;
     position: relative;
     overflow: hidden;
 }
-
 .carousel {
     display: flex;
-    transition: transform 0.5s ease;
+    transition: transform 0.7s ease;
 }
-
-
 .slide {
     min-width: 100%;
     display: flex;
     gap: 2vw;
     position: relative;
-    
 }
 .slide .text{
     text-align: start;
     display: flex;
     flex-direction: column;
-    gap: 2vh;
-    padding-left: 1vw;
-    
+    gap: 2.4vh;
+    padding-left: 1.2vw;
 }
 .slide > .text::before{
     content: '';
     width: 3px;
-    height: 60%;
-    top: 8px;
+    height: 65%;
+    top: 7px;
     position: absolute;
     left: 1px;
     background-color: #ce1212;
 }
 .slide .text p{
-    line-height: 6vh;
-    font-weight: 500;
+    line-height: 5vh;
+    font-weight: 510;
 }
 .slide .text h3{
-    font-weight: 400;
+    font-weight: 412;
 }
 .slide .text h4{
-    color: #171212a8;
-    font-size: 14px;
+    color: #1e1818ad;
+    font-size: 15px;
 }
 .slide .text .star {
     display: flex;
-    
 }
 .slide .text .star i{
-    color: #ffc107;
+    color: #e9af02;
 }
-
 .slide img {
-    width: 40%;
-    height: 40%;
+    width: 25%;
     object-fit: cover;
     border-radius: 50%;
-
 }
-       
 .indicators-grp{
     width: 100%;
     padding: 2vh 0;
     position: absolute;
-    bottom: 10%;
+    bottom: 8%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    z-index: 10;
+    z-index: 15;
 }
 .indicator{
     width: 12px;
     height: 12px;
-    background: #808080bd;
+    background: rgba(128, 128, 128, 0.625);
     border-radius: 50%;
     cursor: pointer;
 }

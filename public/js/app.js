@@ -59,6 +59,6 @@ const containers = document.querySelectorAll(".carousel-container");
             index++;
             if (index >= slides.length) index = 0;
             goToSlide(index);
-        }, 3000);
+        }, 3000);     
     });
 // !end of Testimonials section
