@@ -643,3 +643,27 @@ footer{
 .map h1 span{
     color: #ce1212;
 }
+
+/* todo.... Address section */
+.adress_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 4vh 7vw;
+}
+.adress{
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.559);
+    padding: 2.5vh 2vw;
+}
+.call{
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.559);
+    padding: 2.5vh 2vw;
+}
+.hours{
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.559);
+    padding: 2.5vh 2vw;
+}
+.email{
+    padding: 2.5vh 2vw;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.559);
+}
